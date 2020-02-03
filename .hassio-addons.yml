@@ -1,0 +1,11 @@
+---
+channel: stable
+addons:
+  own2mqtt:
+    repository: coresiweb/addon-own2mqtt
+    target: own2mqtt
+    image: coresi/{arch}-own2mqtt
+  btalarmmqtt:
+    repository: coresiweb/addon-btalarm2mqtt
+    target: btalarm2mqtt
+    image: coresi/{arch}-btalarm2mqtt
