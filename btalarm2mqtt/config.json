@@ -59,5 +59,6 @@
       "armed_night": "str"
     },
     "log_level": "str"
-  }
+  },
+  "image": "coresi/{arch}-btalarm2mqtt"
 }
