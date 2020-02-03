@@ -1,1 +1,65 @@
-../../addon-btalarm2mqtt/btalarm2mqtt/config.json
+{
+  "name": "btalarm2mqtt",
+  "version": "0.11",
+  "slug": "btalarm2mqtt",
+  "description": "Gateway to Bticino Alarm",
+  "url": "https://github.com/coresiweb/addon-btalarm2mqtt",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "bticino_alarm_ip": "",
+    "bticino_alarm_port": 80,
+    "bticino_alarm_user": "",
+    "bticino_alarm_password": "",
+    "mqtt_server_ip": "",
+    "mqtt_server_port": 1883,
+    "mqtt_server_user": "",
+    "mqtt_server_password": "",
+    "query_interval": {
+      "laresStatus": 60,
+      "zonesDescription": 86400,
+      "zonesStatus": 1,
+      "virtualKeypad": 5,
+      "outputsDescription": 86400,
+      "outputsStatus": 5,
+      "partitionsDescription": 86400,
+      "partitionsStatus": 5
+    },
+    "arm_modes": {
+      "disarmed": "Disinserimento",
+      "armed_home": "Ins. Porte e Finestre",
+      "armed_away": "Ins. Totale",
+      "armed_night": "Ins. Notte"
+    },
+    "log_level": "INFO"
+  },
+  "schema": {
+    "bticino_alarm_ip": "str",
+    "bticino_alarm_port": "int",
+    "bticino_alarm_user": "str",
+    "bticino_alarm_password": "str",
+    "mqtt_server_ip": "str",
+    "mqtt_server_port": "int",
+    "mqtt_server_user": "str",
+    "mqtt_server_password": "str",
+    "query_interval": {
+      "laresStatus": "int",
+      "zonesDescription": "int",
+      "zonesStatus": "int",
+      "virtualKeypad": "int",
+      "outputsDescription": "int",
+      "outputsStatus": "int",
+      "partitionsDescription": "int",
+      "partitionsStatus": "int"
+    },
+    "arm_modes": {
+      "disarmed": "str",
+      "armed_home": "str",
+      "armed_away": "str",
+      "armed_night": "str"
+    },
+    "log_level": "str"
+  },
+  "image": "coresi/{arch}-btalarm2mqtt"
+}
