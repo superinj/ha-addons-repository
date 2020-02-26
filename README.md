@@ -32,6 +32,20 @@ https://github.com/coresiweb/ha-addons-repository
 
 ## Add-ons provided by this repository
 
+### &#10003; [own2mqtt][addon-own2mqtt]
+
+![Latest Version][own2mqtt-version-shield]
+![Supports armhf Architecture][own2mqtt-armhf-shield]
+![Supports armv7 Architecture][own2mqtt-armv7-shield]
+![Supports aarch64 Architecture][own2mqtt-aarch64-shield]
+![Supports amd64 Architecture][own2mqtt-amd64-shield]
+![Supports i386 Architecture][own2mqtt-i386-shield]
+![Docker Pulls][own2mqtt-pulls-shield]
+
+Client to OpenWebNet Server
+
+[:books: own2mqtt add-on documentation][addon-doc-own2mqtt]
+
 ## Releases
 
 Releases are based on [Semantic Versioning][semver], and use the format
@@ -57,6 +71,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: own2mqtt][own2mqtt-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -106,6 +121,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-own2mqtt]: https://github.com/coresiweb/addon-own2mqtt/tree/v0.1.2
+[addon-doc-own2mqtt]: https://github.com/coresiweb/addon-own2mqtt/blob/v0.1.2/README.md
+[own2mqtt-issue]: https://github.com/coresiweb/addon-own2mqtt/issues
+[own2mqtt-version-shield]: https://img.shields.io/badge/version-v0.1.2-blue.svg
+[own2mqtt-pulls-shield]: https://img.shields.io/docker/pulls/coresi/armhf-own2mqtt.svg
+[own2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[own2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[own2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[own2mqtt-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[own2mqtt-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [awesome]: https://awesome-ha.com
 [discord-ha]: https://discord.gg/c5DvZ4e
