@@ -32,6 +32,20 @@ https://github.com/coresiweb/ha-addons-repository
 
 ## Add-ons provided by this repository
 
+### &#10003; [btalarm2mqtt][addon-btalarm2mqtt]
+
+![Latest Version][btalarm2mqtt-version-shield]
+![Supports armhf Architecture][btalarm2mqtt-armhf-shield]
+![Supports armv7 Architecture][btalarm2mqtt-armv7-shield]
+![Supports aarch64 Architecture][btalarm2mqtt-aarch64-shield]
+![Supports amd64 Architecture][btalarm2mqtt-amd64-shield]
+![Supports i386 Architecture][btalarm2mqtt-i386-shield]
+![Docker Pulls][btalarm2mqtt-pulls-shield]
+
+Gateway to Bticino Alarm
+
+[:books: btalarm2mqtt add-on documentation][addon-doc-btalarm2mqtt]
+
 ### &#10003; [own2mqtt][addon-own2mqtt]
 
 ![Latest Version][own2mqtt-version-shield]
@@ -71,6 +85,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: btalarm2mqtt][btalarm2mqtt-issue]
 - [Open an issue for the add-on: own2mqtt][own2mqtt-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -121,6 +136,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-btalarm2mqtt]: https://github.com/coresiweb/addon-btalarm2mqtt/tree/v0.1.1
+[addon-doc-btalarm2mqtt]: https://github.com/coresiweb/addon-btalarm2mqtt/blob/v0.1.1/README.md
+[btalarm2mqtt-issue]: https://github.com/coresiweb/addon-btalarm2mqtt/issues
+[btalarm2mqtt-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
+[btalarm2mqtt-pulls-shield]: https://img.shields.io/docker/pulls/coresi/armhf-btalarm2mqtt.svg
+[btalarm2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[btalarm2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[btalarm2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[btalarm2mqtt-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[btalarm2mqtt-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [addon-own2mqtt]: https://github.com/coresiweb/addon-own2mqtt/tree/v0.1.2
 [addon-doc-own2mqtt]: https://github.com/coresiweb/addon-own2mqtt/blob/v0.1.2/README.md
 [own2mqtt-issue]: https://github.com/coresiweb/addon-own2mqtt/issues
