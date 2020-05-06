@@ -1,6 +1,6 @@
 {
   "name": "own2mqtt",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "slug": "own2mqtt",
   "description": "Client to OpenWebNet Server",
   "url": "https://github.com/coresiweb/addon-own2mqtt",
@@ -38,7 +38,7 @@
     "mqtt_client_name": "str",
     "mqtt_base_topic": "str",
     "thermo_zones": [
-      "match(^[0-9]$)"
+      "match(^[0-9]+$)"
     ]
   },
   "image": "coresi/{arch}-own2mqtt"
