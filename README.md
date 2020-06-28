@@ -136,10 +136,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-btalarm2mqtt]: https://github.com/coresiweb/addon-btalarm2mqtt/tree/v0.1.1
-[addon-doc-btalarm2mqtt]: https://github.com/coresiweb/addon-btalarm2mqtt/blob/v0.1.1/README.md
+[addon-btalarm2mqtt]: https://github.com/coresiweb/addon-btalarm2mqtt/tree/v0.1.2
+[addon-doc-btalarm2mqtt]: https://github.com/coresiweb/addon-btalarm2mqtt/blob/v0.1.2/README.md
 [btalarm2mqtt-issue]: https://github.com/coresiweb/addon-btalarm2mqtt/issues
-[btalarm2mqtt-version-shield]: https://img.shields.io/badge/version-v0.1.1-blue.svg
+[btalarm2mqtt-version-shield]: https://img.shields.io/badge/version-v0.1.2-blue.svg
 [btalarm2mqtt-pulls-shield]: https://img.shields.io/docker/pulls/coresi/armhf-btalarm2mqtt.svg
 [btalarm2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [btalarm2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

@@ -1,6 +1,6 @@
 {
   "name": "btalarm2mqtt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "slug": "btalarm2mqtt",
   "description": "Gateway to Bticino Alarm",
   "url": "https://github.com/coresiweb/addon-btalarm2mqtt",
@@ -38,7 +38,9 @@
       "armed_away": "Ins. Totale",
       "armed_night": "Ins. Notte"
     },
-    "log_level": "INFO"
+    "log_level": "INFO",
+    "mqtt_client_name": "btalarm2mqtt",
+    "mqtt_base_topic": "bticinoalarm"
   },
   "schema": {
     "bticino_alarm_ip": "str",
@@ -65,7 +67,9 @@
       "armed_away": "str",
       "armed_night": "str"
     },
-    "log_level": "str"
+    "log_level": "str",
+    "mqtt_client_name": "str",
+    "mqtt_base_topic": "str"
   },
   "image": "coresi/{arch}-btalarm2mqtt"
 }
