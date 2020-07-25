@@ -1,6 +1,6 @@
 {
   "name": "own2mqtt",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "slug": "own2mqtt",
   "description": "Client to OpenWebNet Server",
   "url": "https://github.com/coresiweb/addon-own2mqtt",
@@ -24,7 +24,12 @@
     "log_level": "INFO",
     "mqtt_client_name": "own2mqtt",
     "mqtt_base_topic": "openwebnet",
-    "thermo_zones": []
+    "thermo_zones": [],
+    "f520_ids": [],
+    "f522_ids": [],
+    "query_interval": {
+      "total_energy_query": 60
+    }
   },
   "schema": {
     "own_server_ip": "str",
@@ -39,7 +44,16 @@
     "mqtt_base_topic": "str",
     "thermo_zones": [
       "match(^[0-9]+$)"
-    ]
+    ],
+    "f520_ids": [
+      "match(^[0-9]+$)"
+    ],
+    "f522_ids": [
+      "match(^[0-9]+$)"
+    ],
+    "query_interval": {
+      "total_energy_query": "int"
+    }
   },
   "image": "coresi/{arch}-own2mqtt"
 }
