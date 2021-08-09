@@ -27,7 +27,7 @@ pretty easy. Follow [the official instructions][third-party-addons] on the
 website of Home Assistant, and use the following URL:
 
 ```txt
-https://github.com/coresiweb/ha-addons-repository
+https://github.com/superinj/ha-addons-repository
 ```
 
 ## Add-ons provided by this repository
@@ -136,21 +136,21 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-btalarm2mqtt]: https://github.com/coresiweb/addon-btalarm2mqtt/tree/v0.1.3
-[addon-doc-btalarm2mqtt]: https://github.com/coresiweb/addon-btalarm2mqtt/blob/v0.1.3/README.md
-[btalarm2mqtt-issue]: https://github.com/coresiweb/addon-btalarm2mqtt/issues
+[addon-btalarm2mqtt]: https://github.com/superinj/addon-btalarm2mqtt/tree/v0.1.3
+[addon-doc-btalarm2mqtt]: https://github.com/superinj/addon-btalarm2mqtt/blob/v0.1.3/README.md
+[btalarm2mqtt-issue]: https://github.com/superinj/addon-btalarm2mqtt/issues
 [btalarm2mqtt-version-shield]: https://img.shields.io/badge/version-v0.1.3-blue.svg
-[btalarm2mqtt-pulls-shield]: https://img.shields.io/docker/pulls/coresi/armhf-btalarm2mqtt.svg
+[btalarm2mqtt-pulls-shield]: https://img.shields.io/docker/pulls/superinj/armhf-btalarm2mqtt.svg
 [btalarm2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [btalarm2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [btalarm2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [btalarm2mqtt-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [btalarm2mqtt-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-own2mqtt]: https://github.com/coresiweb/addon-own2mqtt/tree/v0.3.2
-[addon-doc-own2mqtt]: https://github.com/coresiweb/addon-own2mqtt/blob/v0.3.2/README.md
-[own2mqtt-issue]: https://github.com/coresiweb/addon-own2mqtt/issues
+[addon-own2mqtt]: https://github.com/superinj/addon-own2mqtt/tree/v0.3.2
+[addon-doc-own2mqtt]: https://github.com/superinj/addon-own2mqtt/blob/v0.3.2/README.md
+[own2mqtt-issue]: https://github.com/superinj/addon-own2mqtt/issues
 [own2mqtt-version-shield]: https://img.shields.io/badge/version-v0.3.2-blue.svg
-[own2mqtt-pulls-shield]: https://img.shields.io/docker/pulls/coresi/armhf-own2mqtt.svg
+[own2mqtt-pulls-shield]: https://img.shields.io/docker/pulls/superinj/armhf-own2mqtt.svg
 [own2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [own2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [own2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
@@ -165,10 +165,10 @@ SOFTWARE.
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io?u=frenck
 [frenck]: https://github.com/frenck
-[gitlabci-shield]: https://gitlab.com/coresiweb/ha-addons-repository/badges/master/pipeline.svg
-[gitlabci]: https://gitlab.com/coresiweb/ha-addons-repository/pipelines
-[issue]: https://github.com/coresiweb/ha-addons-repository/issues
-[license-shield]: https://img.shields.io/github/license/coresiweb/ha-addons-repository.svg
+[gitlabci-shield]: https://gitlab.com/superinj/ha-addons-repository/badges/master/pipeline.svg
+[gitlabci]: https://gitlab.com/superinj/ha-addons-repository/pipelines
+[issue]: https://github.com/superinj/ha-addons-repository/issues
+[license-shield]: https://img.shields.io/github/license/superinj/ha-addons-repository.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
