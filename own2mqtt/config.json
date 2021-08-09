@@ -1,18 +1,19 @@
 {
   "name": "own2mqtt",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "slug": "own2mqtt",
   "description": "Client to OpenWebNet Server",
-  "url": "https://github.com/coresiweb/addon-own2mqtt",
+  "url": "https://github.com/superinj/addon-own2mqtt",
   "arch": [
-    "armhf",
-    "armv7",
     "aarch64",
     "amd64",
+    "armhf",
+    "armv7",
     "i386"
   ],
   "startup": "application",
   "boot": "auto",
+  "image": "superinj/{arch}-own2mqtt",
   "options": {
     "own_server_ip": "",
     "own_server_port": 20000,
@@ -22,6 +23,7 @@
     "mqtt_server_user": "",
     "mqtt_server_password": "",
     "log_level": "INFO",
+    "debug": false,
     "mqtt_client_name": "own2mqtt",
     "mqtt_base_topic": "openwebnet",
     "thermo_zones": [],
@@ -40,6 +42,7 @@
     "mqtt_server_user": "str",
     "mqtt_server_password": "str",
     "log_level": "match(^(TRACE|DEBUG|INFO|NOTICE|WARNING|ERROR|FATAL)$)?",
+    "debug": "bool",
     "mqtt_client_name": "str",
     "mqtt_base_topic": "str",
     "thermo_zones": [
@@ -54,6 +57,5 @@
     "query_interval": {
       "total_energy_query": "int"
     }
-  },
-  "image": "coresi/{arch}-own2mqtt"
+  }
 }
