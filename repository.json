@@ -1,5 +1,5 @@
 {
-  "name": "CoReSI add-on repository",
-  "url": "https://coresi.it/ha-addons",
-  "maintainer": "CoReSI <info@coresi.it>"
+  "name": "Custom Add-on repository",
+  "url": "https://github.com/superinj/ha-addons-repository",
+  "maintainer": "superinj"
 }
