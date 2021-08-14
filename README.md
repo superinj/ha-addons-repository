@@ -146,10 +146,10 @@ SOFTWARE.
 [btalarm2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [btalarm2mqtt-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [btalarm2mqtt-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[addon-own2mqtt]: https://github.com/superinj/addon-own2mqtt/tree/v0.3.3
-[addon-doc-own2mqtt]: https://github.com/superinj/addon-own2mqtt/blob/v0.3.3/README.md
+[addon-own2mqtt]: https://github.com/superinj/addon-own2mqtt/tree/v0.3.4
+[addon-doc-own2mqtt]: https://github.com/superinj/addon-own2mqtt/blob/v0.3.4/README.md
 [own2mqtt-issue]: https://github.com/superinj/addon-own2mqtt/issues
-[own2mqtt-version-shield]: https://img.shields.io/badge/version-v0.3.3-blue.svg
+[own2mqtt-version-shield]: https://img.shields.io/badge/version-v0.3.4-blue.svg
 [own2mqtt-pulls-shield]: https://img.shields.io/docker/pulls/superinj/armhf-own2mqtt.svg
 [own2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [own2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
